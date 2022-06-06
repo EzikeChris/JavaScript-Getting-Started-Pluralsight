@@ -1,18 +1,9 @@
-
-function ShowMeter() {
-    let product = 1234;
-
-
-
-    console.log();
-
-    function meterCheck() {
-        let product = 1234;
-        console.log("Available:" , product)
-    }
-
-
-    meterCheck();
+"use strict"
+/// This forces you to declare your variables///
+/// Use strict makes sure you decleare yourb variables //
+let productInformation = {
+    Car: " Hyndai",
+    Manufacturer: " SunnySystems"
 }
 
-showMessage ("Welcome")
+console.log(productInformation.Manufacturer);
